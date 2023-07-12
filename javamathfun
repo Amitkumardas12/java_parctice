@@ -1,0 +1,22 @@
+package akd;
+
+import java.util.Scanner;
+
+public class Square {
+    public static void main(String[] args){
+
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter value of x");
+        int x=sc.nextInt();
+
+        System.out.println("enter value of y");
+        int y=sc.nextInt();
+
+        System.out.println("enter value of z");
+        int z=sc.nextInt();
+
+        double x2= Math.cbrt(Math.pow(x,2)+ Math.pow(y,2)-Math.abs(z)) ;
+    System.out.println("the result is = " + x2);
+    }
+
+}
